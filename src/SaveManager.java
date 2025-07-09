@@ -22,8 +22,8 @@ public class SaveManager {
             return new Player(); // fallback
         }
     }
-    private static int bonusHp = 0;
-    private static int bonusXp = 0;
+    private static int bonusHp = 10;
+    private static int bonusXp = 10;
 
     public static int getBonusHp() {
         return bonusHp;
